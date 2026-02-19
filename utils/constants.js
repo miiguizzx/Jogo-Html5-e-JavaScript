@@ -1,8 +1,8 @@
 /* Caminho para a imagem da nave do jogador */
-export const PATH_NAVE_IMAGE = "src/assets/images/nave.png";
+export const PATH_NAVE_IMAGE = "assets/images/nave.png";
 
 /* Caminho para a imagem dos inimigos */
-export const PATH_INIMIGO_IMAGE = "src/assets/images/inimigo.png";
+export const PATH_INIMIGO_IMAGE = "assets/images/inimigo.png";
 
 /* Número de estrelas desenhadas no fundo */
 export const NUMBER_STARS = 100;
