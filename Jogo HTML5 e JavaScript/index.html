@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define a codificação de caracteres para suportar acentos e símbolos -->
+    <meta charset="UTF-8">
+
+    <!-- Garante que o layout funciona bem em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liga o ficheiro de estilos CSS -->
+    <link rel="stylesheet" href="src/style.css">
+
+    <!-- Título da página (aparece no separador do navegador) -->
+    <title>Jogo Teste</title>
+</head>
+<body>
+
+    <!-- Interface de pontuação visível durante o jogo -->
+    <section class="score-ui">
+        <div>
+            <!-- Mostra os pontos atuais -->
+            <span class="score">
+                Pontos: <span>0</span>
+            </span>
+
+            <!-- Mostra o nível atual -->
+            <span class="level">
+                Nivel: <span>1</span>
+            </span>
+
+            <!-- Mostra Recorde -->
+            <span class="high">
+                Recorde: <span>0</span>
+            </span>
+        </div>
+    </section>
+
+    <!-- Ecrã inicial do jogo -->
+    <section class="start-screen screen">
+        <div>
+            <!-- Título do jogo -->
+            <h1>Jogo Teste</h1>
+
+            <!-- Botão para iniciar o jogo -->
+            <button class="button-play">Jogar</button>
+        </div>
+
+        <!-- Créditos / descrição -->
+        <span>Jogo Html5 e JavaScript Miguel Pereira</span>
+    </section>
+
+    <!-- Ecrã de fim de jogo -->
+    <section class="game-over screen">
+        <div>
+            <!-- Mensagem de fim -->
+            <h1>Fim do Jogo</h1>
+
+            <!-- Botão para reiniciar o jogo -->
+            <button class="button-restart">Recomeçar</button>
+        </div>
+    </section>
+
+    <!-- Canvas onde o jogo é desenhado (gráficos, animações, etc.) -->
+    <canvas></canvas>
+
+    <!-- Importa o ficheiro principal JavaScript como módulo -->
+    <script type="module" src="src/index.js"></script>
+
+</body>
+</html>
