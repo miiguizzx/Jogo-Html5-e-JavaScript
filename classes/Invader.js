@@ -46,7 +46,7 @@ class Invader {
     getImage(path) {
         /* Cria imagem */
         const image = new Image();
-        image.src = path;
+        image = path;
         return image;
     }
 
