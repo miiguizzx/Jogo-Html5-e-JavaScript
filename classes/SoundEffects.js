@@ -2,25 +2,25 @@ class SoundEffects {
     constructor() {
         /* Sons De Disparo */
         this.shootSounds = [
-            new Audio("src/assets/audios/shoot.mp3"),
-            new Audio("src/assets/audios/shoot.mp3"),
-            new Audio("src/assets/audios/shoot.mp3"),
-            new Audio("src/assets/audios/shoot.mp3"),
-            new Audio("src/assets/audios/shoot.mp3"),
+            new Audio("assets/audios/shoot.mp3"),
+            new Audio("assets/audios/shoot.mp3"),
+            new Audio("assets/audios/shoot.mp3"),
+            new Audio("assets/audios/shoot.mp3"),
+            new Audio("assets/audios/shoot.mp3"),
         ];
 
         /* Sons de impacto */
         this.hitSounds = [
-            new Audio("src/assets/audios/hit.mp3"),
-            new Audio("src/assets/audios/hit.mp3"),
-            new Audio("src/assets/audios/hit.mp3"),
-            new Audio("src/assets/audios/hit.mp3"),
-            new Audio("src/assets/audios/hit.mp3"),
+            new Audio("assets/audios/hit.mp3"),
+            new Audio("assets/audios/hit.mp3"),
+            new Audio("assets/audios/hit.mp3"),
+            new Audio("assets/audios/hit.mp3"),
+            new Audio("assets/audios/hit.mp3"),
         ];
 
         /* Sons De Explusão E Próximo Nível */
-        this.explosionSound = new Audio("src/assets/audios/explosion.mp3");
-        this.nextLevelSound = new Audio("src/assets/audios/next_level.mp3");
+        this.explosionSound = new Audio("assets/audios/explosion.mp3");
+        this.nextLevelSound = new Audio("assets/audios/next_level.mp3");
 
         this.currentShootSound = 0;
         this.currentHitSound = 0;
