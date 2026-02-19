@@ -46,7 +46,7 @@ class Player {
     getImage(path) {
         /* Cria e devolve uma imagem */
         const image = new Image();
-        image.src = path;
+        image = path;
         return image;
     }
 
